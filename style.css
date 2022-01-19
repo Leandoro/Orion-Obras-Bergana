@@ -91,21 +91,6 @@ h2{
 /* Fin de la presentación */
 
 /* Grilla para logos */
-/* .photo-grid-container{
-    display: flex;
-    justify-content: center;
-}
-
-.photo-grid{
-    padding-top: 60px;
-    width: 750px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-} */
-/* Fin de la grilla para logos */
-
-/* Grilla para logos */
 .grid-container{
     display: grid;
     justify-content: center;
