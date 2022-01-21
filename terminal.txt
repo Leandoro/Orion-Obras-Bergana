@@ -1,0 +1,85 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git init
+Initialized empty Git repository in C:/Users/liken/Desktop/Coder/desafio-4.1/.git/
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git commit .
+error: pathspec '.' did not match any file(s) known to git
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git add .
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git commit -m "Creación del repositorio"
+[master (root-commit) 45a6f61] Creación del repositorio
+ 33 files changed, 407 insertions(+)
+ create mode 100644 contacto.html
+ create mode 100644 images/adolfo.jpg
+ create mode 100644 images/bonafide.jpg
+ create mode 100644 images/cafemar.jpg
+ create mode 100644 images/honda.jpg
+ create mode 100644 images/honda1.JPG
+ create mode 100644 images/honda2.JPG
+ create mode 100644 images/honda3.JPG
+ create mode 100644 images/honda4.JPG
+ create mode 100644 images/jazmin.jpg
+ create mode 100644 images/lazaro.jpg
+ create mode 100644 images/logo.jpg
+ create mode 100644 images/logosmall.jpg
+ create mode 100644 images/mcdonalds.jpg
+ create mode 100644 images/mcdonalds1.JPG
+ create mode 100644 images/mcdonalds2.JPG
+ create mode 100644 images/mcdonalds3.JPG
+ create mode 100644 images/mcdonalds4.JPG
+ create mode 100644 images/sbg.jpg
+ create mode 100644 images/sbg1.jpg
+ create mode 100644 images/sbg2.jpg
+ create mode 100644 images/sbg5.jpg
+ create mode 100644 images/sbg6.jpg
+ create mode 100644 images/ypf.jpg
+ create mode 100644 index.html
+ create mode 100644 obras.html
+ create mode 100644 style.css
+ create mode 100644 videos/mc.mp4
+ create mode 100644 wireframes/contacto.png
+ create mode 100644 wireframes/index.png
+ create mode 100644 wireframes/obras.png
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git push -u origin master
+Counting objects: 100% (38/38), done.
+Delta compression using up to 16 threads
+Writing objects: 100% (38/38), 66.88 MiB | 9.76 MiB/s, done.
+Total 38 (delta 2), reused 0 (delta 0), pack-reused 0
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git add .
+[LB-branch 9404d72] Modificación de clases en el footer
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[LB-branch f7f6003] Borrar código viejo
+ 1 file changed, 15 deletions(-)
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git commit -am "Se agregan transiciones en el footer"
+[LB-branch 5400c88] Se agregan transiciones en el footer
+ 1 file changed, 26 insertions(+)
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git commit -am "Actualización del footer en el resto de los html"
+[LB-branch c00bdce] Actualización del footer en el resto de los html
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git merge LB-branch
+Updating 45a6f61..c00bdce
+ contacto.html |  6 +++---
+ index.html    |  6 +++---
+ obras.html    |  6 +++---
+ style.css     | 41 ++++++++++++++++++++++++++---------------
+ 4 files changed, 35 insertions(+), 24 deletions(-)
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git commit -am "Mergeo LB-branch con el master"
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+PS C:\Users\liken\Desktop\Coder\desafio-4.1> git push -u origin master
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 1.61 KiB | 1.61 MiB/s, done.
+Total 13 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+To https://github.com/Leandoro/Orion-Obras-Bergana.git
+   45a6f61..c00bdce  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
