@@ -30,24 +30,25 @@
     Contactanos
 </h2>
 <section class="form-container">
-    <form action="" class="form">
-        <div class="form-item">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"><br>
+    <form action="mailto:info@orionobras.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <div class="row">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
+          </div>
+        <div class="mb-3 form-item">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com" name="Contact-Email">
         </div>
-        <div class="form-item">
-            <label for="empresa">Empresa:</label>
-            <input type="text" id="empresa" name="empresa"><br>
+        <div class="mb-3 form-item">
+            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
         </div>
-        <div class="form-item">
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email"><br>
-        </div>
-        <div class="form-item">
-            <label for="consulta">Consulta:</label>
-		    <textarea vertical rows="5" cols="20" name="consulta" id="consulta"></textarea><br><br>
-        </div>
-        <input type="submit" value="Submit">
+        <button type="button submit" value="submit" class="btn btn-success">Enviar</button>
     </form>
 </section>
 

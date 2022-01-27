@@ -147,10 +147,11 @@ h2{
     background-color: lightgrey;
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .form{
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -159,10 +160,10 @@ h2{
 .form-item{
     margin-bottom: 10px;
     display: inline;
-    text-align: right;
+    text-align: left;
 }
 
-textarea{
-    vertical-align: top;
+.btn-center{
+    justify-content: center;
 }
 /* Fin del formulario de contacto */
