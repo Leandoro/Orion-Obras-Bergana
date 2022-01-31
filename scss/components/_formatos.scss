@@ -1,0 +1,35 @@
+/* Formato de los títulos */
+.title{
+    background-color: lightgrey;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+}
+/* Fin del formato de los títulos */
+
+/* Formato de la presentación */
+#nosotros{
+    background-color: lightgrey;
+    padding: 30px 30px 20px 40px;
+    display: flex;
+}
+
+.who-text{
+    border: 3px solid white;
+    padding: 30px;
+    margin-right: 20px;
+    text-align: justify;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+/* Fin de la presentación */
