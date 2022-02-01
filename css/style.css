@@ -29,7 +29,7 @@
 
 /* Formato de los títulos */
 .title {
-  background-color: lightgrey;
+  background-color: lightgray;
   padding-top: 20px;
   margin: 0px;
 }
@@ -46,7 +46,7 @@ h2 {
 /* Fin del formato de los títulos */
 /* Formato de la presentación */
 #nosotros {
-  background-color: lightgrey;
+  background-color: lightgray;
   padding: 30px 30px 20px 40px;
   display: flex;
 }

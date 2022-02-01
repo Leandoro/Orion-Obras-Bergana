@@ -1,6 +1,6 @@
 /* Formato de los títulos */
 .title{
-    background-color: lightgrey;
+    background-color: nth($color, 2);
     padding-top: 20px;
     margin: 0px;
 }
@@ -8,26 +8,26 @@
 h2{
     margin-top: 50px;
     text-align: center;
-    color: black;
+    color: nth($color, 4);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
-    font-size: 2em;
+    font-size: $titles;
 }
 /* Fin del formato de los títulos */
 
 /* Formato de la presentación */
 #nosotros{
-    background-color: lightgrey;
+    background-color: nth($color, 2);
     padding: 30px 30px 20px 40px;
     display: flex;
 }
 
 .who-text{
-    border: 3px solid white;
+    border: 3px solid nth($color, 1);
     padding: 30px;
     margin-right: 20px;
     text-align: justify;
-    color: black;
+    color: nth($color, 4);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     font-size: 1.5em;
