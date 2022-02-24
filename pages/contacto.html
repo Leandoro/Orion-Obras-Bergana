@@ -31,12 +31,23 @@
 </h2>
 <div class="row justify-content-center my-5">
     <div class="col-lg-4">
-        <form action="mailto:info@orionobras.com">
-            <div class="form-floating my-5">
+        <form action="https://formsubmit.co/leandrouade@gmail.com" method="POST">
+            <div class="form-floating my-3">
                 <input type="nombre" id="nombre" class="form-control" placeholder="Nombre">
-                <label for="nombre" class="form-label">Apellido y nombre:</label>
+                <label for="nombre" class="form-label">Nombre:</label>
             </div>
-
+            <div class="form-floating my-3">
+                <input type="email" id="email" class="form-control" placeholder="Email">
+                <label for="nombre" class="form-label">Email:</label>
+            </div>
+            <div class="form-floating my-3">
+                <textarea name="consulta" id="consulta" class="form-control" placeholder="" style="height:100px"></textarea>
+                <label for="nombre" class="form-label">¿En qué te podemos ayudar?</label>
+            </div>
+            <input type="hidden" name="_next" value="https://orionobras.com.ar/gracias.html">
+            <div class="text-center">
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+            </div>
         </form>
     </div>
 </div>
