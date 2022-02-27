@@ -11,12 +11,12 @@ body {
 /* Formato de los títulos */
 .title {
   background-color: #e6e6e4;
-  padding-top: 20px;
   margin: 0px;
 }
 
 h2 {
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   text-align: center;
   color: black;
   font-family: "Lato", sans-serif;
@@ -25,11 +25,10 @@ h2 {
 }
 
 /* Fin del formato de los títulos */
-/* Formato de la presentación */
 .who-text {
   border: 3px solid white;
+  margin: 0px 0px 50px 0px;
   padding: 30px;
-  margin-right: 20px;
   text-align: justify;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
