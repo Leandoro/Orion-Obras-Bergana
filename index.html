@@ -14,38 +14,71 @@
 </head>
 <body>
 
-<!-- Links a las secciones -->
-<header class="menu-container">
-    <nav class="menu">
-        <div class="menu-item"><a href="#nosotros">Nosotros</a></div>
-        <div class="menu-item"><a href="#clientes">Clientes</a></div>
-        <div class="menu-logo"><a href="index.html"><img src="images/logosmall.jpg" alt="Logo" width="260" height="120"></a></div>
-        <div class="menu-item"><a href="./pages/obras.html">Obras</a></div>
-        <div class="menu-item"><a href="./pages/contacto.html">Contacto</a></div>
-    </nav>
-</header>
+<!-- Navbar -->
+<div class="container">
+    <div class="row p-2">
+        <div class="col-2 pt-2">
+            <a href="index.html"><img src="images/logo.png" alt="Logo" height="30px"></a>
+        </div>
+        <div class="col pb-1">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Obras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Carrousel principal -->
+<div id="carousel-index" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/slide1.jpg" class="d-block w-100" alt="SBG Palermo">
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide2.JPG" class="d-block w-100" alt="Honda La Rural">
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide3.JPG" class="d-block w-100" alt="McDonald's Puerto Madero">
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide4.jpg" class="d-block w-100" alt="Sabrina Lavalle">
+        </div>
+    </div>
+</div>
 
 <!-- Presentación -->
-<div class="presentation">
-    <div class="row">
-        <h2 class="col title">
-            ¿Quienes somos?
-        </h2>
-    </div>
-    <section id="nosotros" class="row">
-        <p class="col-5 who-text">
-            Nos especializamos en hacer realidad la imagen corporativa de su 
-            emprendimiento. Brindamos todo nuestro conocimiento en diseño, 
-            construcción y arquitectura, garantizando un alto grado de 
-            profesionalismo a nuestros clientes. En nuestro sitio podrá 
+<h2 class="title">
+    Quienes somos
+</h2>
+<section id="nosotros" class="container">
+        <p class="row who-text">
+            Nos especializamos en hacer realidad la imagen corporativa de su
+            emprendimiento. Brindamos todo nuestro conocimiento en diseño,
+            construcción y arquitectura, garantizando un alto grado de
+            profesionalismo a nuestros clientes. En nuestro sitio podrá
             encontrar referencias de algunos de los trabajos realizados.
         </p>
-        <figure class="col figure">
+
+        <figure class="row figure">
             <video src="videos/mc.mp4" class="figure-img img-fluid rounded" alt="Video institucional" width="100%" controls></video>
             <figcaption class="figure-caption text-end">Inauguración McDonald's Ruta 26, Del Viso, Buenos Aires.</figcaption>
         </figure>
-    </section>
-</div>
+
+</section>
 
 <!-- Logos de clientes -->
 <h2>
