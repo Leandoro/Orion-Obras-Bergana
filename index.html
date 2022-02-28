@@ -18,15 +18,16 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container pb-1">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo" height="30px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="Logo" height="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#nosotros">Nosotros</a>
@@ -38,7 +39,7 @@
                         <a class="nav-link" href="./pages/obras.html">Obras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -65,10 +66,10 @@
 </div>
 
 <!-- Presentación -->
-<h2 class="title">
-    Quienes somos
+<h2 id="nosotros" class="title">
+    ¿Quienes somos?
 </h2>
-<section id="nosotros" class="container">
+<section class="container">
         <p class="row who-text">
             Nos especializamos en hacer realidad la imagen corporativa de su 
             emprendimiento. Brindamos todo nuestro conocimiento en diseño, 
@@ -89,44 +90,29 @@
 </section>
 
 <!-- Logos de clientes -->
-<h2>
+<h2 id="clientes" class="title">
     Clientes
 </h2>
-<div id="clientes" class="container">
-    <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/mcdonalds.png" alt="McDonald's">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/cafemar.png" alt="Café Martinez">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/bonafide.png" alt="Bonafide">
-        </div>
+<section class="clientes-container">
+    <div class="grid-container">
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
+        <div class="grid-item"><img src="images/samsung.png" alt="Samsung"></div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/ypf.png" alt="YPF">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/honda.png" alt="Honda">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/sbg.png" alt="SGB">
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/adolfo.png" alt="Adolfo Dominguez">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/jazmin.png" alt="Jazmin Chebar">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
-            <img src="images/lazaro.png" alt="Lazaro">
-        </div>
-    </div>
-</div>
+</section>
 
 <!-- Redes sociales -->
 <h2 class="title">
@@ -155,7 +141,8 @@
                 </svg>
             </a>
         </div>
-    </section>    
+    </section>
+    <p>2022 Todos los derechos reservados a Orion Obras S.R.L.</p>    
 </footer>
 
 <!-- Script bootstrap -->
